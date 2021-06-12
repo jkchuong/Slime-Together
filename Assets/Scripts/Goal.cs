@@ -3,8 +3,10 @@ using UnityEngine;
 
 public class Goal : MonoBehaviour
 {
+    public ColourEnum goalColour;
+    
     private GameManager gameManager;
-
+    
     private void Awake()
     {
         gameManager = FindObjectOfType<GameManager>();
@@ -17,7 +19,8 @@ public class Goal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        PlayerController player = other.GetComponent<PlayerController>();
+        if (player && player.playerColour == goalColour)
         {
             gameManager.EnterGoal();
         }
@@ -25,7 +28,8 @@ public class Goal : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        PlayerController player = other.GetComponent<PlayerController>();
+        if (player && player.playerColour == goalColour)
         {
             gameManager.ExitGoal();
         }

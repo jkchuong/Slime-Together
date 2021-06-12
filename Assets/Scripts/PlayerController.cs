@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float runSpeed = 5f;
     [SerializeField] private float jumpSpeed = 5f;
 
+    public ColourEnum playerColour;
+    
     // Cache
     private Rigidbody2D playerRigidbody2D;
 

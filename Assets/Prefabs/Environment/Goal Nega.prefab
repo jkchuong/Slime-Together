@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3763219476162210517}
   - component: {fileID: 3763219476162210513}
   m_Layer: 0
-  m_Name: Goal
+  m_Name: Goal Nega
   m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
-  m_Color: {r: 0.48193976, g: 0.9528302, b: 0.40899786, a: 1}
+  m_Color: {r: 0.9529412, g: 0.4078431, b: 0.830624, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -144,4 +144,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c9c3f106bd989a40b72810d093b8623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalColour: 1
+  goalColour: 0

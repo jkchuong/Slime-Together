@@ -276,6 +276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 5
   jumpSpeed: 10
+  playerColour: 1
 --- !u!114 &4988921046282855121
 MonoBehaviour:
   m_ObjectHideFlags: 0

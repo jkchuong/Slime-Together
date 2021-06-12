@@ -19,6 +19,10 @@ PrefabInstance:
       propertyPath: jumpSpeed
       value: -10
       objectReference: {fileID: 0}
+    - target: {fileID: 4988921046282855122, guid: 53d50a80e5df3084e98d0a75a3cad3c6, type: 3}
+      propertyPath: playerColour
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4988921046282855123, guid: 53d50a80e5df3084e98d0a75a3cad3c6, type: 3}
       propertyPath: m_GravityScale
       value: -1
