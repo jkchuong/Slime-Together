@@ -20,8 +20,9 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Tab))
         {
+            Time.timeScale = menuCanvas.activeSelf ? 1 : 0;
             menuCanvas.SetActive(!menuCanvas.activeSelf);
         }
     }

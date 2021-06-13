@@ -43,6 +43,26 @@ PrefabInstance:
       propertyPath: playerColour
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4988921046282855122, guid: 53d50a80e5df3084e98d0a75a3cad3c6, type: 3}
+      propertyPath: jumpSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4988921046282855122, guid: 53d50a80e5df3084e98d0a75a3cad3c6, type: 3}
+      propertyPath: jumpSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7837b410349be79478af8a7fe866d3f2, type: 3}
+    - target: {fileID: 4988921046282855122, guid: 53d50a80e5df3084e98d0a75a3cad3c6, type: 3}
+      propertyPath: jumpSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5d5dba71883836448ada522db71bf467, type: 3}
+    - target: {fileID: 4988921046282855122, guid: 53d50a80e5df3084e98d0a75a3cad3c6, type: 3}
+      propertyPath: jumpSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: c570229b9a88cea4bac9e5a45968c1ea, type: 3}
+    - target: {fileID: 4988921046282855122, guid: 53d50a80e5df3084e98d0a75a3cad3c6, type: 3}
+      propertyPath: jumpSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 700686bbfcf221b4a8b4f7d8cf8f03b0, type: 3}
     - target: {fileID: 4988921046282855123, guid: 53d50a80e5df3084e98d0a75a3cad3c6, type: 3}
       propertyPath: m_GravityScale
       value: -1

@@ -9,7 +9,7 @@ public class PlayerSplit : MonoBehaviour
         
         if (other.CompareTag("Spike"))
         {
-            other.gameObject.SetActive(false);
+            // other.gameObject.SetActive(false);
             foreach (Transform child in other.transform)
             {
                 GameObject newPlayer = Instantiate(smallPlayer, child.position, gameObject.transform.rotation);

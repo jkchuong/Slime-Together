@@ -26,5 +26,6 @@ public class ButtonManager : MonoBehaviour
     public void CloseMenu(GameObject menu)
     {
         menu.SetActive(false);
+        Time.timeScale = 1;
     }
 }

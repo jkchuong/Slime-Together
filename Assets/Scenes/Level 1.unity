@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &2529303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3154610912190607659, guid: 363fc5a53ec6cf840bcb9f34636e4e51, type: 3}
+  m_PrefabInstance: {fileID: 1959666288}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &169251687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -132,7 +137,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8643828428029117048, guid: 2adc32dc2ca6167428262e4a6f1017d7, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8643828428029117048, guid: 2adc32dc2ca6167428262e4a6f1017d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -189,7 +194,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8643828428029117048, guid: 2adc32dc2ca6167428262e4a6f1017d7, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8643828428029117048, guid: 2adc32dc2ca6167428262e4a6f1017d7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -569,7 +574,7 @@ Transform:
   - {fileID: 449028549}
   - {fileID: 1027859633}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &841062856
 PrefabInstance:
@@ -792,7 +797,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1811980562
 PrefabInstance:
@@ -876,7 +881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2318359829390151559, guid: 1a5b1272f57f29c458af438049740e40, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2318359829390151559, guid: 1a5b1272f57f29c458af438049740e40, type: 3}
       propertyPath: m_LocalPosition.x
@@ -962,7 +967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3154610912190607663, guid: 363fc5a53ec6cf840bcb9f34636e4e51, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3154610912190607663, guid: 363fc5a53ec6cf840bcb9f34636e4e51, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1177,7 +1182,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3763219476162210514, guid: 2a77e77e6f91aa64187f7d177db89333, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3763219476162210514, guid: 2a77e77e6f91aa64187f7d177db89333, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1246,7 +1251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4873823687233677760, guid: 3ca0101035396f647a0d572a72170aa9, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4873823687233677760, guid: 3ca0101035396f647a0d572a72170aa9, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1351,7 +1356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6466399076873271907, guid: e0f119d7928ef494e99bfc18d73d7f7f, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6466399076873271907, guid: e0f119d7928ef494e99bfc18d73d7f7f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1448,7 +1453,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6661748544195183797, guid: 7e9880a987bc8bd41867b3b3e3c305c1, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6661748544195183797, guid: 7e9880a987bc8bd41867b3b3e3c305c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1494,6 +1499,10 @@ PrefabInstance:
       propertyPath: winCanvas
       value: 
       objectReference: {fileID: 1854548032}
+    - target: {fileID: 6661748544195183798, guid: 7e9880a987bc8bd41867b3b3e3c305c1, type: 3}
+      propertyPath: menuCanvas
+      value: 
+      objectReference: {fileID: 2529303}
     - target: {fileID: 6661748544195183799, guid: 7e9880a987bc8bd41867b3b3e3c305c1, type: 3}
       propertyPath: m_Name
       value: GameManager
