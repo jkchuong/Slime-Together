@@ -5,12 +5,14 @@ public class PlayerController : MonoBehaviour
     // Movement
     [SerializeField] private float runSpeed = 5f;
     [SerializeField] private float jumpSpeed = 5f;
+    [SerializeField] private AudioClip[] jumpSounds;
 
     public ColourEnum playerColour;
     
     // Cache
     private Rigidbody2D playerRigidbody2D;
-
+    private AudioSource audioSource;
+    
     private bool isGrounded;
     
     private bool paused;
@@ -18,6 +20,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         playerRigidbody2D = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -33,6 +36,7 @@ public class PlayerController : MonoBehaviour
         Vector2 jumpVelocity = new Vector2(0f, jumpSpeed);
         playerRigidbody2D.AddForce(jumpVelocity, ForceMode2D.Impulse);
         isGrounded = false;
+        audioSource.PlayOneShot(jumpSounds[Random.Range(0, jumpSounds.Length)]);
     }
     
     private void Run()
