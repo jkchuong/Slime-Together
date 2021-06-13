@@ -25,19 +25,6 @@ public class PlayerController : MonoBehaviour
         if (paused) return;
         Run();
         Jump();
-        // FlipSprite();
-    }
-
-    private void FlipSprite()
-    {
-        bool hasHorizontalSpeed = Mathf.Abs(playerRigidbody2D.velocity.x) > Mathf.Epsilon;
-
-        if (hasHorizontalSpeed)
-        {
-            var localScale = transform.localScale;
-            localScale = new Vector2(Mathf.Sign(playerRigidbody2D.velocity.x) * localScale.x, localScale.y);
-            transform.localScale = localScale;
-        }
     }
 
     private void Jump()
@@ -45,6 +32,7 @@ public class PlayerController : MonoBehaviour
         if (!Input.GetButtonDown("Jump") || !isGrounded) return;
         Vector2 jumpVelocity = new Vector2(0f, jumpSpeed);
         playerRigidbody2D.AddForce(jumpVelocity, ForceMode2D.Impulse);
+        isGrounded = false;
     }
     
     private void Run()
@@ -74,4 +62,6 @@ public class PlayerController : MonoBehaviour
     {
         paused = true;
     }
+
+    public bool Paused() => paused;
 }

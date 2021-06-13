@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2318359829390151558, guid: 1a5b1272f57f29c458af438049740e40, type: 3}
+      propertyPath: menuCanvas
+      value: 
+      objectReference: {fileID: 38391001}
     - target: {fileID: 2318359829390151559, guid: 1a5b1272f57f29c458af438049740e40, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -180,6 +184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a5b1272f57f29c458af438049740e40, type: 3}
+--- !u!1 &38391001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3154610912190607659, guid: 363fc5a53ec6cf840bcb9f34636e4e51, type: 3}
+  m_PrefabInstance: {fileID: 2025753753}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &103089805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -662,7 +671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4873823687233677764, guid: 3ca0101035396f647a0d572a72170aa9, type: 3}
       propertyPath: m_Name
-      value: Background
+      value: Background Canvas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca0101035396f647a0d572a72170aa9, type: 3}
@@ -813,6 +822,10 @@ PrefabInstance:
       propertyPath: winCanvas
       value: 
       objectReference: {fileID: 950126245}
+    - target: {fileID: 6661748544195183798, guid: 7e9880a987bc8bd41867b3b3e3c305c1, type: 3}
+      propertyPath: menuCanvas
+      value: 
+      objectReference: {fileID: 38391001}
     - target: {fileID: 6661748544195183799, guid: 7e9880a987bc8bd41867b3b3e3c305c1, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -977,27 +990,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8069353329907452832, guid: 28edad456c750d54ea7203f88d64e47a, type: 3}
       propertyPath: m_Size.x
-      value: 0.21
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 8069353329907452832, guid: 28edad456c750d54ea7203f88d64e47a, type: 3}
       propertyPath: m_Size.y
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8069353329907452833, guid: 28edad456c750d54ea7203f88d64e47a, type: 3}
       propertyPath: m_Size.x
-      value: 0.21
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 8069353329907452833, guid: 28edad456c750d54ea7203f88d64e47a, type: 3}
       propertyPath: m_Size.y
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8069353329907452833, guid: 28edad456c750d54ea7203f88d64e47a, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 0.21
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 8069353329907452833, guid: 28edad456c750d54ea7203f88d64e47a, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8069353329907452835, guid: 28edad456c750d54ea7203f88d64e47a, type: 3}
       propertyPath: m_RootOrder
@@ -1009,7 +1022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8069353329907452835, guid: 28edad456c750d54ea7203f88d64e47a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.57
+      value: 2.33
       objectReference: {fileID: 0}
     - target: {fileID: 8069353329907452835, guid: 28edad456c750d54ea7203f88d64e47a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1132,7 +1145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5964967521397216126, guid: 12eb6195a685dcd41996e32576113b24, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.83
+      value: -6.4933515
       objectReference: {fileID: 0}
     - target: {fileID: 5964967521397216126, guid: 12eb6195a685dcd41996e32576113b24, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1312,7 +1325,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3154610912190607659, guid: 363fc5a53ec6cf840bcb9f34636e4e51, type: 3}
       propertyPath: m_Name
-      value: Overlay
+      value: Overlay Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3154610912190607659, guid: 363fc5a53ec6cf840bcb9f34636e4e51, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3154610912190607663, guid: 363fc5a53ec6cf840bcb9f34636e4e51, type: 3}
       propertyPath: m_Pivot.x

@@ -22,4 +22,9 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene(levelName);
     }
+
+    public void CloseMenu(GameObject menu)
+    {
+        menu.SetActive(false);
+    }
 }
